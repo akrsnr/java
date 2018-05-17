@@ -14,9 +14,9 @@ class MyQuickSort {
     }
 
     private static void quickSortHelper(List<Integer> arr, List<Integer> out) {
-        if (arr.size() < 1) return;
+        if (arr != null && arr.size() < 1) return;
 
-        if (arr.size() < 2) {
+        if (arr != null && arr.size() < 2) {
             out.add(arr.get(0));
             return;
         }
@@ -25,18 +25,18 @@ class MyQuickSort {
         List<Integer> greater = new ArrayList<>();
         List<Integer> samePivot = new ArrayList<>();
 
-
         int pivot = arr.get(0);
 
         for (int i : arr) {
             if (i > pivot) {
                 greater.add(i);
             }
-            else if (i < pivot ){
+            else if (i < pivot ) {
                 less.add(i);
             }
-            else
+            else {
                 samePivot.add(i);
+            }
         }
 
         quickSortHelper(less, out);
