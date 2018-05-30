@@ -1,6 +1,6 @@
 class Perfectcimisiniz {
 
-    public static void main(String[] args) throws UnsupportedEncodingException {
+    public static void main(String[] args) {
 
         
         long sum = 0;
