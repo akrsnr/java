@@ -4,8 +4,8 @@ class CodingChallenge3 {
 
         
         long sum = 0;
-        long firstNum = 137438691328L;
-        long endNum = 137438691328L;
+        long firstNum = 1;
+        long endNum = 8128;
 
         System.out.println("Range is inclusively: " + firstNum + " - " + endNum);
 
