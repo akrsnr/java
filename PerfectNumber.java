@@ -1,4 +1,4 @@
-class CodingChallenge3 {
+class Perfectcimisiniz {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
 
