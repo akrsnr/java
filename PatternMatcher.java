@@ -15,7 +15,7 @@ class PatternMatcher {
         Matcher m = p.matcher(input);
 
         while (m.find()) {
-            System.out.println("Found a group(0)" + m.group(0) + " ~~ " + "Found a group(1)" + m.group(1));
+            System.out.println("Found a group(0) -> " + m.group(0) + " ~~ " + "Found a group(1) -> " + m.group(1));
         }
 
     }
