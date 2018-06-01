@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class PatternMatcher {
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main(String[] args) {
 
         String input = "foto_20180601_1.jpg\n" +
                 " foto_20180601_10.jpg\n" +
