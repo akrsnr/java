@@ -11,7 +11,12 @@ class Perfectcimisiniz {
 
         while (firstNum <= endNum) {
             sum = 0;
-            for (int i = 2; i <= Math.sqrt(firstNum); i++) {
+            /*
+                Optimization is here;
+                for(int i = 2; i <= Math.sqrt(firstNum); i++) ...
+                Since square root is still complex process..
+            */
+            for (int i = 2; i*i <= firstNum; i += 2) {
                 if (firstNum % i == 0) {
                     sum = sum + i + (firstNum / i);
                 }
