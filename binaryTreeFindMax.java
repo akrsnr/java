@@ -16,6 +16,8 @@ public static int findMax(Node binaryTreeNode) {
         else
             return binaryTreeNode.data;
     }
+    
+    // if both branches are not null
 
     int leftData = findMax(binaryTreeNode.left);
     int righData = findMax(binaryTreeNode.right);
