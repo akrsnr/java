@@ -1,5 +1,7 @@
 // Soner - Exercise
 
+// Hummm, my solution seems like working with negative numbers as well
+
 
 public static int findMax(Node binaryTreeNode) throws IllegalAccessException {
         if (binaryTreeNode == null) throw new IllegalAccessException("Passed null reference");
