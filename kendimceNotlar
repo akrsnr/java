@@ -1,0 +1,16 @@
+
+abc
+
+Madem dünyanız ağlıyor ve hayatınız acılaştı.. O halde çalışınız ahiretiniz ağlamasın. (Bediüzzaman Said Nursi)
+
+
+orm
+java-database proje
+roll back - commit
+
+pointer optimization
+
+garbage collector can keep track of where memory allocation is done recently
+but new available place is sought for malloc 
+
+One of the most significant JIT optimizations is method inlining. Java can even inline virtual methods if it can guarantee runtime correctness. This kind of optimization usually cannot be performed by standard static compilers because it needs whole-program analysis, which is hard because of separate compilation (in contrast, JIT has all the program available to it). Method inlining improves other optimizations, giving larger code blocks to optimize.
