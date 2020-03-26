@@ -1,0 +1,1 @@
+http://web.archive.org/web/20200326055625/https://blog.rapid7.com/2017/01/13/java-8-lazy-argument-evaluation/
